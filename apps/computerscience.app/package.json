@@ -1,0 +1,44 @@
+{
+  "name": "webapp1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.12",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "html-react-parser": "^0.10.3",
+    "react": "^16.13.1",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-data-table-component": "^6.9.0",
+    "react-dom": "^16.13.1",
+    "react-modal-image": "^2.5.0",
+    "react-responsive-modal": "^5.0.2",
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "cp build/index.html build/index.backup.html; sed 's\/\\\/static\/\\.\\\/static\/g' build/index.html > build/index.deploy.html;mv build/index.deploy.html build/index.html",
+    "copy": "cp -R build ../../docs/computerscience"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+--2020-05-14 14:24:51--  https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YWZU2ZGZN4I6TJUIGA3JH62LBM.jpg
+Resolving www.washingtonpost.com (www.washingtonpost.com)... 23.35.141.233
+Connecting to www.washingtonpost.com (www.washingtonpost.com)|23.35.141.233|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://www.washingtonpost.com/ [following]
+--2020-05-14 14:24:52--  https://www.washingtonpost.com/
+Reusing existing connection to www.washingtonpost.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘imrs.php?src=https:%2F%2Farc-anglerfish-washpost-prod-washpost.s3.amazonaws.com%2Fpublic%2FYWZU2ZGZN4I6TJUIGA3JH62LBM.jpg’
+
+                        imrs.php?src=https:%2F%2     [<=>                                                                                                      ]       0  --.-KB/s               imrs.php?src=https:%2F%2Farc-anglerfish-washpost     [ <=>                                                                                                     ] 602.22K  --.-KB/s    in 0.1s    
+
+2020-05-14 14:24:52 (4.80 MB/s) - ‘imrs.php?src=https:%2F%2Farc-anglerfish-washpost-prod-washpost.s3.amazonaws.com%2Fpublic%2FYWZU2ZGZN4I6TJUIGA3JH62LBM.jpg’ saved [616669]
+

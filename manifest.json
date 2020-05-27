@@ -1,0 +1,19 @@
+{
+  "short_name": "CDAC and Computer Science",
+  "name": "CDAC Computer Science Department",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "CDAC_Logo_RGB_v01Full.svg",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
