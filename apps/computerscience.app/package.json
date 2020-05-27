@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "cp build/index.html build/index.backup.html; sed 's\/\\\/static\/\\.\\\/static\/g' build/index.html > build/index.deploy.html;mv build/index.deploy.html build/index.html",
-    "copy": "cp -R build ../../docs/computerscience"
+    "copy": "cp -R build/* ../../docs/computerscience"
   },
   "eslintConfig": {
     "extends": "react-app"

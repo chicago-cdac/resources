@@ -44,7 +44,7 @@ function App() {
           textDecoration: 'none',
         }}>
         <p><b>
-        <a href='https://github.com/ggmartins/resources/blob/master/index/src/data/catalog.tsx'
+        <a href='https://github.com/chicago-cdac/resources/blob/master/index/src/data/catalog.tsx'
                   style={{
                     alignItems: 'center',
                     textDecoration: 'none',
@@ -53,7 +53,7 @@ function App() {
             Catalog |
           </a>
         </b></p>
-        <a href='https://github.com/ggmartins/resources/tree/master/index'>
+        <a href='https://github.com/chicago-cdac/resources/tree/master/index'>
           <img
             height='50px'
             src='https://cdac-misc.s3.us-east-2.amazonaws.com/images/Ei-sc-github.svg'
