@@ -2,7 +2,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
   {
     id: 1,
     title: 'Encore',
-    keywords: 'censorship, measurement, encore',
+    keywords: 'censorship, measurement, encore, computer networks',
     formats: 'csv, psql',
     shortdesc: 'Measure Web filtering from Web browsers',
     compressedsize: '350MB',
@@ -12,7 +12,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
     dateapprox: true,
     images: ['https://cdac-misc.s3.us-east-2.amazonaws.com/images/encore.png'],
     sampledataurl: 'https://encore-data.s3.us-east-2.amazonaws.com/index.html',
-    contact: 'Prof. Nick Feamster',
+    contact: 'Nick Feamster',
     description: 'Encore: Lightweight Measurement of Web Censorship with Cross-Origin Requests',
     refurls:{
       primary: [
@@ -75,7 +75,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
   {
     id: 2,
     title: 'Project BISmark',
-    keywords: 'speedtest, throughput, broadband, performance, bismark',
+    keywords: 'speedtest, throughput, broadband, performance, bismark, computer networks',
     formats: 'csv, psql',
     shortdesc: 'Broadband Internet Service Benchmark Dataset Collection',
     compressedsize: '8GB',
@@ -85,7 +85,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
     dateapprox: true,
     images: ['http://projectbismark.net.s3-website.us-east-2.amazonaws.com/poster20191017.jpg'],
     sampledataurl: 'http://projectbismark.net.s3-website.us-east-2.amazonaws.com/csv/samples/',
-    contact: 'Prof. Nick Feamster',
+    contact: 'Nick Feamster',
     description: 'Longitudinal internet performance data collected from broadband users (volunteers), mostly located in US. Measurements are extracted from the output of standard linux tools (eg. netperf, iperf, ping, traceroute, scamper and dtg) running on dedicated programmable routers (OpenWRT) and Single Board Computers (SBC).',
     refurls:{
       primary: [
@@ -177,7 +177,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
   {
     id: 3,
     title: 'IoT Inspector',
-    keywords: 'iot, internet of things, privacy, security, networking',
+    keywords: 'iot, internet of things, privacy, security, computer networks',
     formats: 'json, pickle',
     shortdesc: 'An open-source tool that helps you learn more about your IoT devices',
     compressedsize: '6TB',
@@ -187,7 +187,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
     dateapprox: true,
     images: ['https://lh3.googleusercontent.com/xPyyR00HSmmGBjK7r96Ng-4eh3nnh6o7t11ruFBYALB8EMsNbAdJYhSNedwNjzGM07bUAbIlWGMI8Hnd-pFIeg=w800'],
     sampledataurl: 'https://github.com/noise-lab/iot-inspector-server-v2/wiki/Data-Access-and-Schema',
-    contact: 'Prof. Danny Y. Huang, Prof. Nick Feamster',
+    contact: 'Danny Y. Huang, Nick Feamster',
     description: 'An open-source desktop tool with a one-click install process. Automatically discovers IoT devices and analyzes their network traffic. Helps you identify security and privacy issues with graphs and tables. Requires minimal technical skills and no special hardware. Use it to quickly inspect devices (e.g., from your computer) or continuously monitor your network (e.g., from a Raspberry Pi)',
     refurls:{
       primary: [
@@ -246,7 +246,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
   {
     id: 4,
     title: 'Network Microscope',
-    keywords: 'video, applications, performance, inference, machine learning, netmicroscope',
+    keywords: 'video, applications, performance, inference, machine learning, netmicroscope, computer networks',
     formats: 'json, pickle',
     shortdesc: 'Real-time inference of Quality of Experience with video streaming',
     compressedsize: '140GB',
@@ -335,7 +335,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
   {
     id: 5,
     title: 'Interconnection Measurement Project',
-    keywords: 'isp, interconnection, performance, internet, congestion',
+    keywords: 'isp, interconnection, performance, internet, network congestion, computer networks',
     formats: 'RData',
     shortdesc: 'Revealing Utilization at Internet Interconnection Points',
     compressedsize: '6GB',
@@ -345,7 +345,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
     dateapprox: true,
     images: ['http://interconnection.citp.princeton.edu/wp-content/uploads/2016/01/01agg-01_p_easy_natamonth_2017-03-31_1100x484.png'],
     sampledataurl: 'http://interconnection.citp.princeton.edu/wp-content/uploads/2017/07/Interconnect_Measurement_Proj_2017-03-31.xlsx',
-    contact: 'Prof. Nick Feamster',
+    contact: 'Nick Feamster',
     description: 'Participating Internet Service Providers have installed a common tool to measure traffic at their interconnects, the points where ISPs exchange traffic with the greater Internet. All data and visualizations are of ingress capacity and utilization.',
     refurls:{
       primary: [
@@ -369,6 +369,47 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
           url: 'http://interconnection.citp.princeton.edu/wp-content/uploads/2016/04/1603.03656v1_IMP-Working-Paper.pdf',
           metatags_enable: false,
         }
+      ]
+    }
+  },
+  {
+    id: 6,
+    title: 'Realtime Diagnostics App',
+    keywords: 'hci, human computer integration, health, diagnostics',
+    formats: 'json',
+    shortdesc: 'Realtime Diagnostics for Nigerian Doctors Without Relying on Internet',
+    compressedsize: 'Unknown',
+    uncompressedsize: 'Unknown',
+    datestart: '10-2019',
+    dateend: 'Current',
+    dateapprox: false,
+    images: ['https://repository-images.githubusercontent.com/191812811/7bbc4600-b243-11e9-921b-349ad170f4aa'],
+    sampledataurl: 'Not Yet Available',
+    contact: 'Andrey Rzhetsky, Pedro Lopes',
+    description: 'Realtime Diagnostics for Nigerian Doctors Without Relying on Internet - humancomputerintegration/realtime-diagnostics-app',
+    refurls:{
+      primary: [
+        {
+          type: "Primary Location",
+          url: "https://github.com/humancomputerintegration/realtime-diagnostics-app",
+          metatags_enable: true,
+          metatags_url: "https://github.com/humancomputerintegration/realtime-diagnostics-app",
+          metatags_title: "Github - Realtime Diagnostics Android Application",
+          metatags_description: "Realtime Diagnostics for Nigerian Doctors Without Relying on Internet - humancomputerintegration/realtime-diagnostics-app",
+          metatags_image: "https://cdac-misc.s3.us-east-2.amazonaws.com/images/realtimediag.png",
+        }
+      ],
+      secondary : [
+        {
+          type: "Media Coverage",
+          title: "Media Coverage",
+          url: "https://cdac.uchicago.edu/research/a-mobile-decision-making-interface-for-doctors-without-internet/",
+          metatags_enable: true,
+          metatags_url: "https://cdac.uchicago.edu/research/a-mobile-decision-making-interface-for-doctors-without-internet/",
+          metatags_title: "Mobile Decision-Making for Doctors Without Internet | CDAC",
+          metatags_description: "Create a mobile Android app for physicians working in areas with poor internet coverage, enabling data-driven medical diagnosis and medical record access in the field.",
+          metatags_image: "https://cdac.uchicago.edu/wp-content/uploads/2019/09/medical-app.jpg"
+        },
       ]
     }
   }

@@ -5,3 +5,9 @@ npm i react-data-table-component
 npm i react-copy-to-clipboard
 npm i react-modal-image
 npm i react-responsive-modal
+npm i @material-ui/core@latest
+npm i html-react-parser@latest
+npm i react-data-table-component@latest
+npm i @testing-library/jest-dom@latest
+npm i @testing-library/react@latest
+npm i @testing-library/user-event@latest
