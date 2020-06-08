@@ -51,14 +51,14 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
           type: "Alternative Data Location (UChicago)",
           title: "Encore Dataset",
           description: "Last Snapshot CSV data extracted from PSQL",
-          url: "(\"parkscluster\").cs.uchicago.edu:/data/gmartins/encoredbcsv.Nov2019.tgz",
+          url: "(parkscluster).cs.uchicago.edu:/data/encore/encoredbcsv.Nov2019.tgz",
           metatags_enable: false,
         },
         {
           type: "Alternative Data Location (UChicago)",
           title: "Encore Notebooks",
           description: "Last Snapshot CSV data extracted from PSQL",
-          url: "(\"parkscluster\").cs.uchicago.edu:/data/gmartins/encore-analysis.tgz",
+          url: "(parkscluster).cs.uchicago.edu:/data/encore/encore-analysis.tgz",
           metatags_enable: false,
         },
         {
@@ -113,7 +113,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
           type: "Alternative Data Location (UChicago)",
           title: "MySpeedTest Dataset",
           description: "MySpeedTest Android App Dataset",
-          url: "(\"parkscluster\").cs.uchicago.edu:/data/gmartins/myspeedtest",
+          url: "(parkscluster).cs.uchicago.edu:/data/myspeedtest",
           metatags_enable: false,
         },
         {
@@ -170,7 +170,25 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
           locdate : 'Cape Town, South Africa. December 2013',
           url: 'http://www1.icsi.berkeley.edu/~srikanth/docs/broadband-sa-dev4.pdf',
           metatags_enable: false,
-        }
+        },
+        {
+          type: "Related Datasets",
+          url: "https://broadbandmap.fcc.gov/#/data-download",
+          metatags_enable: true,
+          metatags_url: "https://broadbandmap.fcc.gov/#/data-download",
+          metatags_title: "Fixed Broadband Deployment Data",
+          metatags_description: "Fixed Broadband Deployment Data (Main Download Page)",
+          metatags_image: "https://www.fcc.gov/sites/default/files/social-media-sharing-fcc-logo.jpg",
+        },
+        {
+          type: "Related Datasets",
+          url: "https://opendata.fcc.gov/Wireline/Fixed-Broadband-Deployment-Data-Jun-2019-Status-V1/sgz3-kiqt",
+          metatags_enable: true,
+          metatags_url: "https://opendata.fcc.gov/Wireline/Fixed-Broadband-Deployment-Data-Jun-2019-Status-V1/sgz3-kiqt",
+          metatags_title: "Fixed Broadband Deployment Data (Wireline)",
+          metatags_description: "Fixed Broadband Deployment Data: Jun, 2019 Status V1",
+          metatags_image: "https://www.fcc.gov/sites/default/files/social-media-sharing-fcc-logo.jpg",
+        },
       ]
     },
   },
@@ -237,7 +255,7 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
           type: "Alternative Data Location (UChicago)",
           title: "Northeastern University IoT Study",
           description: "TBD",
-          url: "(\"parkscluster\").cs.uchicago.edu:/data/gmartins/northeastern-iot/iot-data.tgz",
+          url: "(parkscluster).cs.uchicago.edu:/data/iot/northeastern-iot/iot-data.tgz",
           metatags_enable: false,
         }
       ]
@@ -321,14 +339,21 @@ export default [ //https://encore-data.s3.us-east-2.amazonaws.com/index.html
           metatags_image: "https://cdac-misc.s3.us-east-2.amazonaws.com/images/vcmJlcy1sb2dvLWRhcmsucG5n.png"
         },
         {
-          type: "Alternative Data Location (UChicago)",
+          type: "Data Location (UChicago)",
           title: "Video Quality of Experience Survey",
           description: "QoE opinion score about sampled video sessions.",
-          url: "(\"parkscluster\").cs.uchicago.edu/data/gmartins/netmicroscope/vqoesurvey.csv",
+          url: "(parkscluster).cs.uchicago.edu/data/netmicroscope/vqoesurvey.csv",
           image: 'https://cdac-misc.s3.us-east-2.amazonaws.com/images/surveywordcloud.png',
           metatags_enable: false,
         },
-
+        {
+          type: "Data Location (UChicago)",
+          title: "Video QoE .pcap Training Dataset",
+          description: "Dataset of captured video sessions from applications such as Netflix, Facebook, Amazon and Youtube.",
+          url: "(parkscluster).cs.uchicago.edu/data/netmicroscope/video_pcaps",
+          image: 'https://netmicroscope.com/images/nmcharts.png',
+          metatags_enable: false,
+        }
       ]
     }
   },

@@ -130,7 +130,7 @@ class RefURLs extends React.Component {
                       src={img}  //TODO check image in
                       alt={desc} //TODO alt
                       style={{maxWidth: 500, maxHeight: 100, float: "left", marginRight: 10}} 
-                      crossOrigin={''} 
+                      /*crossOrigin={''}*/
                     />
                   )
                  }
